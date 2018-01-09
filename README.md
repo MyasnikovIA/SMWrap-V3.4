@@ -15,8 +15,7 @@
       set db=##class(SYS.Database).%OpenId("CACHELIB")
       set db.ReadOnly=0 
       w db.%Save()
-      ; "c:\XML\SMWrap.xml" - путь к файлу на сервере   
-      do $system.OBJ.Load("c:\XML\SMWrap.xml","c") 
+      do $system.OBJ.Load("c:\XML\SMWrap.xml","c")    ; "c:\XML\SMWrap.xml" - путь к файлу на сервере   
       set db.ReadOnly=1
       w db.%Save()
       do $zu(5,OldNs)
