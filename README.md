@@ -20,7 +20,7 @@
       set db.ReadOnly=1
       w db.%Save()
       do $zu(5,OldNs)
-      do RUN^%ZMRPMD()
+      do RUN^%ZMRPMD
  </pre>
 
 
