@@ -12,7 +12,8 @@
  <pre>
       s OldNs=$zu(5)
       d $zu(5,"%SYS")
-      set db=##class(SYS.Database).%OpenId("CACHELIB")
+      set db=##class(SYS.Database).%OpenId("CACHELIB") // from Cache'
+      // set db=##class(SYS.Database).%OpenId("IRISLIB") // from Iris'
       set db.ReadOnly=0 
       w db.%Save()
       do $system.OBJ.Load("c:\XML\SMWrap.xml","c")    ; "c:\XML\SMWrap.xml" - путь к файлу на сервере   
