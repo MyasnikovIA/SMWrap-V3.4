@@ -1,4 +1,4 @@
-# SMWrap-V3.4
+# SMWrap-V3.4 среда компонентной разработки программ (Cache Intersystems)
 <br><h3>www.smwrap.ru</h3>
 <pre>
    1) Install smwrap3.4.0.6.exe 
